@@ -1,5 +1,27 @@
 
-## Test Case
+# Test Case
+
+## Test Case 1
+
+- 같은 namespace에 있다 가정
+
+### pod table
+
+| pod 이름 | pod1 | pod2 | pod3 | pod4 |
+| :---: | :---: | :---: | :---: | :---: |
+| label | `test:hi` | `test2:del` <br> `test:hello` | `test:hello` | `test2:del` |
+
+
+### policy 
+
+| policy 이름 | policy 1 | policy 2 | 
+| :---: | :---: | :---: | 
+| policy 적용 대상 | `test:hi`  | `test:hello` | 
+| egress | `test:hello` |  | 
+| ingress |  | `test2:del` | 
+
+
+--- 
 
 ### [pod and policy]
 
