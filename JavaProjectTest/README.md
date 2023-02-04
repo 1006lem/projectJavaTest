@@ -3,7 +3,7 @@
 
 ## Test Case 1
 
-- 같은 namespace에 있다 가정
+- pod, policy가 같은 namespace에 있다 가정
 
 ### pod table
 
@@ -54,6 +54,13 @@
 - 이것은pod4 pod에 대한 정보입니다.
   - next node: pod2
   - next node: pod3
+
+
+---
+
+### 문제점
+
+- 자기 자신으로 향하는 pod 
 
 
 
